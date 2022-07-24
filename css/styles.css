@@ -10766,8 +10766,13 @@ header.masthead .masthead-heading {
   color: white;
   border: 7px solid #cdd4da;
   border-radius: 100%;
-  background-color: #0a9800;
+  background-color: #0a9800; 
 }
+.timeline > li .timeline-image:hover{
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out 0.2s;
+}
+
 .timeline > li .timeline-image h4, .timeline > li .timeline-image .h4 {
   font-size: 10px;
   line-height: 14px;
